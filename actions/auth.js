@@ -1,5 +1,5 @@
 import fetch from 'isomorphic-fetch';
-import { API_URL, API_KEY_NAME, API_KEY_VALUE } from '../config';
+import { API_URL, API_KEY_VALUE } from '../config';
 
 export const signup = (user) => {
   return fetch(`${API_URL}/signup`, {
